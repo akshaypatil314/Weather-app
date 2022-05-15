@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="top-date-time-info">
+        <div class="time-date" id="time-data">
+            <div class="time">
+
+            </div>
+            <div class="date">
+
+            </div>
+        </div>
+
+        <div class="timezone" id="timezone-info">
+            <p class="timezone-country"></p>
+            <p class="country"></p>
+        </div>
+    </div>
+
+    <div class="weather-info" id="weather-data">
+        <div class="current-city-info" id="current-weather">
+            <div class="input-city">
+                <input type="text" id="city-name" placeholder="Enter City Name">
+            </div>
+            <div class="search-button">
+                <input type="button" value="Search" id="button">
+            </div>
+        </div>
+
+        <div class="data-of-city">
+            <h1>Weather <span class="city"></span></h1>
+            <p class="temp"> </p>
+            <div class="img-description">
+                <img alt="broken-image" class="main-img">
+                <p class="condition"></p>
+            </div>
+            <p>Humidity : <span class="humidity"></span></p>
+            <p>Wind : <span class="wind-speed"></span> km/h</p>
+            <p>Sunrise : <span class="sunrise"></span></p>
+            <p>Sunset : <span class="sunset"></span></p>
+        </div>
+    </div>
+
+    <div class="future-weather-data">
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
