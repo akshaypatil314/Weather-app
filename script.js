@@ -51,6 +51,7 @@ window.addEventListener('load', function () {
             }).then((data) => {
                 console.log(data)
                 showWeatherData(data);
+                city_setup.innerText = `at Current location`;
                 backgroundChange(data["current"]["weather"][0]["main"]);
 
             })
