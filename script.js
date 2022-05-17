@@ -1,4 +1,4 @@
-const api_key = 'd0819098122ce24daf1baca31c4a8c1b';
+const api_key = 'Api key';
 
 let time = document.querySelector('.time');
 let ampm = document.getElementById('am-pm');
